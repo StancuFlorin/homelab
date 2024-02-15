@@ -1,0 +1,25 @@
+- Media Services:
+    - Plex:
+        icon: plex
+        href: http://192.168.50.107:32400
+        description: media
+        ping: 192.168.50.107
+
+- Applications: 
+    - Portainer:
+        icon: mdi-docker
+        href: https://192.168.50.133:9443
+        description: docker controller 
+        ping: 192.168.50.133
+        container: portainer
+
+- Information:
+    - Speedtest Tracker:
+        icon: mdi-speedometer
+        href: http://192.168.50.133:8080
+        description: speedtest
+        ping: http://192.168.50.133:8080
+        container: speedtest-tracker
+        widget:
+            type: speedtest
+            url: http://192.168.50.133:8080
