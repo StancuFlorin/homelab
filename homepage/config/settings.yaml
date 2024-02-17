@@ -1,0 +1,18 @@
+title: Florin's HomeLAB
+background: 
+  image: /images/background.webp
+  opacity: 35
+
+layout:
+  Network Services:
+    style: column
+  Media Services:
+    style: column
+  Applications:
+    style: column
+  Information:
+    style: column
+
+  Developer:
+    style: row
+    columns: 4

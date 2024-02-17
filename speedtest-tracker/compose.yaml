@@ -23,6 +23,7 @@ services:
             - db
     db:
         image: mariadb:10
+        container_name: speedtest-tracker-db
         restart: unless-stopped
         environment:
             - MARIADB_DATABASE=speedtest_tracker

@@ -1,0 +1,5 @@
+data/*
+letsencrypt/*
+
+!data/.keep
+!letsencrypt/.keep

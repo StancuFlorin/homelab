@@ -1,25 +1,40 @@
-- Media Services:
-    - Plex:
-        icon: plex
-        href: http://192.168.50.107:32400
-        description: media
-        ping: 192.168.50.107
+- Network Services:
+  - Asus:
+      icon: asus
+      href: http://www.asusrouter.com
+      description: router
+      ping: 192.168.50.1
+  - Huawei:
+      icon: huawei
+      href: http://192.168.100.1
+      description: router
+      ping: 192.168.100.1
+  - Nginx Proxy Manager:
+      icon: nginx
+      href: https://proxy.home.stancu.me
+      description: reverse proxy
+      container: nginx-proxy-manager
 
-- Applications: 
-    - Portainer:
-        icon: mdi-docker
-        href: https://192.168.50.133:9443
-        description: docker controller 
-        ping: 192.168.50.133
-        container: portainer
+- Media Services:
+  - Plex:
+      icon: plex
+      href: https://plex.home.stancu.me
+      description: media
+      ping: 192.168.50.107
+
+- Applications:
+  - Portainer:
+      icon: mdi-docker
+      href: https://portainer.home.stancu.me
+      description: docker controller
+      container: portainer
 
 - Information:
-    - Speedtest Tracker:
-        icon: mdi-speedometer
-        href: http://192.168.50.133:8080
-        description: speedtest
-        ping: http://192.168.50.133:8080
-        container: speedtest-tracker
-        widget:
-            type: speedtest
-            url: http://192.168.50.133:8080
+  - Speedtest Tracker:
+      icon: mdi-speedometer
+      href: https://speedtest.home.stancu.me
+      description: speedtest
+      container: speedtest-tracker
+      widget:
+        type: speedtest
+        url: https://speedtest.home.stancu.me
