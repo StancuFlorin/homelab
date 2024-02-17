@@ -9,7 +9,7 @@ Expose your services easily and securely
 
 ## Settings
 
-## Cloudflare DNS
+### Cloudflare DNS
 
 ```
 A   home.stancu.me      192.168.50.133      DNS only - reserved IP

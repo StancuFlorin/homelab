@@ -31,6 +31,6 @@ services:
             - MARIADB_PASSWORD=password
             - MARIADB_RANDOM_ROOT_PASSWORD=true
         volumes:
-            - speedtest-db:/var/lib/mysql
+            - database:/var/lib/mysql
 volumes:
-  speedtest-db:
+  database:
