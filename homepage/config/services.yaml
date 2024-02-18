@@ -1,28 +1,28 @@
 - Network Services:
-  - Asus:
-      icon: asus
-      href: http://www.asusrouter.com
-      description: router
-      ping: 192.168.50.1
-  - Huawei:
-      icon: huawei
-      href: http://192.168.100.1
-      description: router
-      ping: 192.168.100.1
-  - Nginx Proxy Manager:
-      icon: nginx
-      href: https://proxy.home.stancu.me
-      description: reverse proxy
-      container: nginx-proxy-manager
-  - PiHole:
-      icon: pi-hole
-      href: https://pihole.home.stancu.me/admin/
-      description: network-wide ad blocking
-      container: pihole
-      widget:
-        type: pihole
-        url: https://pihole.home.stancu.me
-        key: {{HOMEPAGE_VAR_PIHOLE}}
+    - Asus:
+        icon: asus
+        href: http://www.asusrouter.com
+        description: router
+        ping: 192.168.50.1
+    - Huawei:
+        icon: huawei
+        href: http://192.168.100.1
+        description: router
+        ping: 192.168.100.1
+    - Nginx Proxy Manager:
+        icon: nginx
+        href: https://proxy.home.stancu.me
+        description: reverse proxy
+        container: nginx-proxy-manager
+    - PiHole:
+        icon: pi-hole
+        href: https://pihole.home.stancu.me/admin/
+        description: network-wide ad blocking
+        container: pihole
+        widget:
+            type: pihole
+            url: https://pihole.home.stancu.me
+            key: {{HOMEPAGE_VAR_PIHOLE}}
 
 - Media Services:
   - Plex:
@@ -37,33 +37,54 @@
 
 
 - Applications:
-  - Portainer:
-      icon: portainer
-      href: https://portainer.home.stancu.me
-      description: docker controller
-      container: portainer
-  - PiKVM:
-      icon: pikvm
-      href: https://pikvm.home.stancu.me
-      description: kvm over ip
-      ping: 192.168.50.70
-  - Pwnagotchi:
-      icon: /icons/pwnagotchi.jpg
-      href: https://pwnagotchi.home.stancu.me
-      description: pwning wifi things
-      ping: 192.168.50.71
-  - Glances:
-      icon: glances
-      href: https://glances.home.stancu.me
-      description: system monitoring
-      container: glances
+    - Portainer:
+        icon: portainer
+        href: https://portainer.home.stancu.me
+        description: docker controller
+        container: portainer
+    - PiKVM:
+        icon: pikvm
+        href: https://pikvm.home.stancu.me
+        description: kvm over ip
+        ping: 192.168.50.70
+    - Pwnagotchi:
+        icon: /icons/pwnagotchi.jpg
+        href: https://pwnagotchi.home.stancu.me
+        description: pwning wifi things
+        ping: 192.168.50.71
+    - Glances:
+        icon: glances
+        href: https://glances.home.stancu.me
+        description: system monitoring
+        container: glances
+    - Backup:
+        icon: mdi-backup-restore
+        description: rsync backup
+        widget:
+            type: customapi
+            url: https://nginx.home.stancu.me/sync_info.json
+            refreshInterval: 3600000
+            method: GET 
+            mappings:
+                - field: time_of_sync
+                  label: Last Sync
+                - field: destination_path_size
+                  label: Backup Size
+                  format: number
+                  scale: 0.001
+                  suffix: MB
+                - field: current_sync_size
+                  label: Sync Size
+                  format: number
+                  scale: 1
+                  suffix: KB
 
 - Information:
-  - Speedtest Tracker:
-      icon: speedtest-tracker
-      href: https://speedtest.home.stancu.me
-      description: speedtest
-      container: speedtest-tracker
-      widget:
-        type: speedtest
-        url: https://speedtest.home.stancu.me
+    - Speedtest Tracker:
+        icon: speedtest-tracker
+        href: https://speedtest.home.stancu.me
+        description: speedtest
+        container: speedtest-tracker
+        widget:
+            type: speedtest
+            url: https://speedtest.home.stancu.me

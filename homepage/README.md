@@ -6,6 +6,7 @@ A modern, fully static, fast, secure fully proxied, highly customizable applicat
 
 - [https://gethomepage.dev/latest/widgets/](https://gethomepage.dev/latest/widgets/)
 - [https://github.com/walkxcode/dashboard-icons/blob/main/ICONS.md](https://github.com/walkxcode/dashboard-icons/blob/main/ICONS.md)
+- [https://pictogrammers.com/library/mdi/](https://pictogrammers.com/library/mdi/)
 
 ## Settings
 
