@@ -32,6 +32,7 @@
       ping: 192.168.50.107
       widget:
         type: plex
+        fields: ["streams", "movies", "tv"]
         url: https://plex.home.stancu.me
         key: {{HOMEPAGE_VAR_PLEX}} 
 
