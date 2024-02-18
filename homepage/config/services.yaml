@@ -52,6 +52,11 @@
       href: https://pwnagotchi.home.stancu.me
       description: pwning wifi things
       ping: 192.168.50.71
+  - Glances:
+      icon: glances
+      href: https://glances.home.stancu.me
+      description: system monitoring
+      container: glances
 
 - Information:
   - Speedtest Tracker:

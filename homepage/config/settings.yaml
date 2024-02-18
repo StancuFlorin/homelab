@@ -12,10 +12,11 @@ layout:
   Network Services:
     style: row
     columns: 3
+  Applications:
+    style: row
+    columns: 3
 
   Media Services:
-    style: column
-  Applications:
     style: column
   Information:
     style: column
