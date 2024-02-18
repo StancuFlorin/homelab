@@ -1,7 +1,10 @@
 #!/bin/bash
 
+# Get the directory of the script
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
 # Read configuration from sync_config.conf
-source sync_config.conf
+source "$SCRIPT_DIR/sync_config.conf"
 
 # Function to get folder size
 get_folder_size() {
@@ -42,6 +45,6 @@ EOF
 )
 
 # Write JSON data to file
-echo "$json_data" > ../nginx/static/sync_info.json
+echo "$json_data" > "$SCRIPT_DIR/../nginx/static/sync_info.json"
 
 echo "Sync completed successfully."
