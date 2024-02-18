@@ -1,8 +1,15 @@
-- resources:
-    cpu: true
-    memory: true
-    disk: /
-
 - search:
-    provider: duckduckgo
+    provider: google
     target: _blank
+
+- glances:
+    url: http://192.168.50.133:61208
+    label: Intel NUC
+    cpu: true
+    mem: true
+    cputemp: true
+    uptime: true
+    disk:
+        - /root
+        - /backup
+    expanded: false

@@ -1,0 +1,17 @@
+version: '3.3'
+name: glances
+services:
+    glances:
+        container_name: glances
+        image: nicolargo/glances:latest-full
+        restart: unless-stopped
+        pid: host
+        ports:
+            - 61208:61208
+        environment:
+            - TZ=Europe/Bucharest
+            - "GLANCES_OPT=--webserver -C /root/glances.conf"
+        volumes:
+            - /var/run/docker.sock:/var/run/docker.sock
+            - ./conf:/root
+            - /mnt/sda1:/backup:ro

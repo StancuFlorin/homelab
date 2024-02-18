@@ -10,4 +10,8 @@ services:
     volumes:
       - ./config:/app/config
       - ./images:/app/public/images
+      - ./icons:/app/public/icons
       - /var/run/docker.sock:/var/run/docker.sock:ro # (optional) For docker integrations
+    environment:
+      HOMEPAGE_VAR_PIHOLE: $HOMEPAGE_VAR_PIHOLE
+      HOMEPAGE_VAR_PLEX: $HOMEPAGE_VAR_PLEX

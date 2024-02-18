@@ -14,6 +14,15 @@
       href: https://proxy.home.stancu.me
       description: reverse proxy
       container: nginx-proxy-manager
+  - PiHole:
+      icon: pi-hole
+      href: https://pihole.home.stancu.me/admin/
+      description: network-wide ad blocking
+      container: pihole
+      widget:
+        type: pihole
+        url: https://pihole.home.stancu.me
+        key: {{HOMEPAGE_VAR_PIHOLE}}
 
 - Media Services:
   - Plex:
@@ -21,17 +30,32 @@
       href: https://plex.home.stancu.me
       description: media
       ping: 192.168.50.107
+      widget:
+        type: plex
+        url: https://plex.home.stancu.me
+        key: {{HOMEPAGE_VAR_PLEX}} 
+
 
 - Applications:
   - Portainer:
-      icon: mdi-docker
+      icon: portainer
       href: https://portainer.home.stancu.me
       description: docker controller
       container: portainer
+  - PiKVM:
+      icon: pikvm
+      href: https://pikvm.home.stancu.me
+      description: kvm over ip
+      ping: 192.168.50.70
+  - Pwnagotchi:
+      icon: /icons/pwnagotchi.jpg
+      href: https://pwnagotchi.home.stancu.me
+      description: pwning wifi things
+      ping: 192.168.50.71
 
 - Information:
   - Speedtest Tracker:
-      icon: mdi-speedometer
+      icon: speedtest-tracker
       href: https://speedtest.home.stancu.me
       description: speedtest
       container: speedtest-tracker

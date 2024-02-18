@@ -3,9 +3,16 @@ background:
   image: /images/background.webp
   opacity: 35
 
+quicklaunch:
+  searchDescriptions: true
+  hideInternetSearch: true
+  hideVisitURL: true
+
 layout:
   Network Services:
-    style: column
+    style: row
+    columns: 3
+
   Media Services:
     style: column
   Applications:
