@@ -42,6 +42,6 @@ EOF
 )
 
 # Write JSON data to file
-echo "$json_data" > ../httpd-busybox/static/sync_info.json
+echo "$json_data" > ../nginx/static/sync_info.json
 
 echo "Sync completed successfully."
