@@ -43,6 +43,11 @@
         href: https://portainer.home.stancu.me
         description: docker controller
         container: portainer
+    - Bitwarden:
+        icon: bitwarden
+        href: https://bitwarden.home.stancu.me
+        description: password manager
+        container: bitwarden-api
     - PiKVM:
         icon: pikvm
         href: https://pikvm.home.stancu.me

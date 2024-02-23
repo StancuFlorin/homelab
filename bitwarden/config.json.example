@@ -1,0 +1,22 @@
+{
+    "SERVICE_URI": "https://bitwarden.home.stancu.me",
+    "SERVICE_REGION": "EU",
+    "SERVICE_HTTP_PORT": "87",
+    "SERVICE_HTTPS_PORT": "447",
+
+    "RANDOM_DATABASE_PASSWORD": "dsa",
+
+    "IDENTITY_CERT_PASSWORD": "dsa",
+    "RANDOM_IDENTITY_KEY": "dsa",
+    "RANDOM_DUO_AKEY": "dsa",
+
+    "SECRET_INSTALLATION_ID": "dsa",
+    "SECRET_INSTALLATION_KEY": "dsa",
+
+    "MAIL_REPLY_EMAIL": "no-reply@bitwarden.home.stancu.me",
+    "MAIL_SMTP_HOST": "smtp-relay.sendinblue.com",
+    "MAIL_SMTP_PORT": "587",
+    "MAIL_SMTP_SSL": "true",
+    "MAIL_SMTP_USER": "dsa",
+    "MAIL_SMTP_PASS": "dsa"
+}
