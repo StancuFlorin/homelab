@@ -11,3 +11,5 @@ Open crontab as root `sudo crontab -e` and add the following lines
 # Run backup script at system startup
 @reboot /home/florin/homelab/backup/backup.sh
 ``` 
+
+Or run `make run` to take on-demand backups

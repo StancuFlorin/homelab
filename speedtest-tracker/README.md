@@ -7,6 +7,10 @@ Speedtest Tracker is a self-hosted internet performance tracking application tha
 - [https://docs.speedtest-tracker.dev/](https://docs.speedtest-tracker.dev/)
 - [https://github.com/alexjustesen/speedtest-tracker](https://github.com/alexjustesen/speedtest-tracker)
 
+## Setup
+
+Simple as `make run`
+
 ## Settings
 
 ### Speedtest Schedule

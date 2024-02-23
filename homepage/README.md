@@ -8,9 +8,15 @@ A modern, fully static, fast, secure fully proxied, highly customizable applicat
 - [https://github.com/walkxcode/dashboard-icons/blob/main/ICONS.md](https://github.com/walkxcode/dashboard-icons/blob/main/ICONS.md)
 - [https://pictogrammers.com/library/mdi/](https://pictogrammers.com/library/mdi/)
 
+## Setup
+
+Copy `.env.example` to `.env` to add your credentails there.
+
+To run it, use `make run`.
+
 ## Settings
 
-copy `.env.example` to `.env` to add your credentails there
+To customize it for your needs, you will probably need to start with `config/services.yaml`.
 
 ### Published Ports
 

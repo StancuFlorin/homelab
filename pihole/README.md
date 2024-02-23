@@ -7,10 +7,15 @@ Network-wide Ad Blocking
 - [https://github.com/pi-hole/docker-pi-hole](https://github.com/pi-hole/docker-pi-hole)
 - [https://docs.pi-hole.net/main/post-install/](https://docs.pi-hole.net/main/post-install/)
 
+## Setup
+
+Simple as `make run`
+
 ## Settings
 
 ### Default Credentials
 
+You can get the default password using
 ```
 sudo docker logs pihole | grep random
 ```
@@ -21,7 +26,7 @@ http: 82
 tcp / udp: 53  
 udp: 67
 
-port `53` is probably used by `systemd-resolved` service and you need to disable it
+port `53` is probably used by `systemd-resolved` service and you need to disable it before running pihole
 
 ```
 sudo systemctl disable systemd-resolved.service

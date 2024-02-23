@@ -4,6 +4,10 @@
 
 - [https://docs.portainer.io/start/install-ce](https://docs.portainer.io/start/install-ce)
 
+## Setup
+
+Simple as `make run`
+
 ## Settings
 
 ### Published Ports
