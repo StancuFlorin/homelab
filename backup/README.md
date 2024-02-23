@@ -1,3 +1,7 @@
+# Backup
+
+Simple `rsync` script that backups the directories configured in `sync_config.conf`.
+
 If the config file was changed using Windows, run `dos2unix sync_config.conf`
 
 ## Cron Job
