@@ -1,0 +1,2 @@
+run:
+	./backup.sh
