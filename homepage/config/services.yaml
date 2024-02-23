@@ -43,6 +43,11 @@
         href: https://portainer.home.stancu.me
         description: docker controller
         container: portainer
+        widget:
+            type: portainer
+            url: https://portainer.home.stancu.me
+            env: 2
+            key: {{HOMEPAGE_VAR_PORTAINER}}
     - Bitwarden:
         icon: bitwarden
         href: https://bitwarden.home.stancu.me
