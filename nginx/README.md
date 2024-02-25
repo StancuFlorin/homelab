@@ -3,6 +3,8 @@
 ## Overview
 This container serves as a simple Nginx server configured to host static files from the `./static` folder. It is primarily utilized by the [backup](../backup) script to generate a static JSON file containing details of the last rsync operation. The generated JSON file is then accessed by the [Homepage](../homepage) dashboard through a simple GET request, enabling the display of data in a widget.
 
+![widget](../homepage/pics/backup_widget.png)
+
 ## Usage
 1. Ensure your static files are placed in the `./static` folder.
 2. Run the container to start the Nginx server using `make run`.
