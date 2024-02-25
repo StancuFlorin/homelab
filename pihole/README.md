@@ -31,7 +31,9 @@ The following ports are accessible:
 - TCP/UDP: 53
 - UDP: 67
 
-Note: Port 53 might be occupied by the `systemd-resolved` service. Disable and stop the service before running Pi-Hole:
+## Note
+
+Port 53 might be occupied by the `systemd-resolved` service. Disable and stop the service before running Pi-Hole:
 ```
 sudo systemctl disable systemd-resolved.service
 sudo systemctl stop systemd-resolved
