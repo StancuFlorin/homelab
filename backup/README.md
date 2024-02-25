@@ -25,4 +25,4 @@ Execute the provided script `backup.sh` to initiate backups based on the configu
 
 # Note
 - It's crucial to review and update `sync_config.conf` whenever directories or backup requirements change.
-- Regularly monitor backup logs and outputs to ensure backups are running smoothly and effectively.
+- Regularly monitor backup logs and outputs to ensure backups are running smoothly and effectively. Check my [nginx](../nginx) and [homepage](../homepage) docker containers to see how I do it.
