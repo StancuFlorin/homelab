@@ -1,23 +1,33 @@
-# Homepage
+# Homepage: Application Dashboard
 
-A modern, fully static, fast, secure fully proxied, highly customizable application dashboard with integrations for over 100 services and translations into multiple languages. Easily configured via YAML files or through docker label discovery.
+## Overview
+Homepage is a modern, fully static, fast, and secure application dashboard. It serves as a centralized hub for managing various services and integrates with over 100 different services. With support for multiple languages and extensive customization options, Homepage provides a versatile solution for users seeking an intuitive dashboard experience.
 
-## Docs
+## Documentation
+Explore the Homepage documentation for detailed information and usage instructions:
 
-- [https://gethomepage.dev/latest/widgets/](https://gethomepage.dev/latest/widgets/)
-- [https://github.com/walkxcode/dashboard-icons/blob/main/ICONS.md](https://github.com/walkxcode/dashboard-icons/blob/main/ICONS.md)
-- [https://pictogrammers.com/library/mdi/](https://pictogrammers.com/library/mdi/)
+- [Homepage Widgets Documentation](https://gethomepage.dev/latest/widgets/)
+- [Dashboard Icons Repository](https://github.com/walkxcode/dashboard-icons/blob/main/ICONS.md)
+- [Material Design Icons Library](https://pictogrammers.com/library/mdi/)
 
 ## Setup
+Copy `.env.example` to `.env` and add your credentials to configure the application.
 
-Copy `.env.example` to `.env` to add your credentails there.
-
-To run it, use `make run`.
+To run Homepage, execute:
+```
+make run
+```
 
 ## Settings
 
-To customize it for your needs, you will probably need to start with `config/services.yaml`.
+### Customization
+To tailor Homepage to your specific requirements, start by customizing the configuration in [config/services.yaml](config/services.yaml).
 
 ### Published Ports
-
-http: 3000
+The following port is published:
+- HTTP: 3000
+  
+## Note
+- Homepage offers a vast array of features, including support for multiple languages, seamless integration with numerous services, and extensive customization capabilities.
+- Utilize the provided documentation to explore widgets, icons, and other customization options available in Homepage.
+- For any inquiries or assistance, refer to the documentation or community support channels.
