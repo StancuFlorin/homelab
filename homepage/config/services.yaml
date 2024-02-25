@@ -92,7 +92,7 @@
         icon: pikvm
         href: https://pikvm.home.stancu.me
         description: kvm over ip
-        ping: 192.168.50.70
+        ping: 192.168.50.38
     - Pwnagotchi:
         icon: /icons/pwnagotchi.jpg
         href: https://pwnagotchi.home.stancu.me
