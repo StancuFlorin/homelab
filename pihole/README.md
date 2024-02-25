@@ -39,7 +39,7 @@ sudo systemctl disable systemd-resolved.service
 sudo systemctl stop systemd-resolved
 ```
 
-Additionally, append a DNS nameserver to `/etc/resolv.conf`:
+Additionally, append a DNS nameserver to `/etc/resolv.conf`
 ```
 sudo sh -c 'echo "nameserver 8.8.8.8" >> /etc/resolv.conf'
 ```
