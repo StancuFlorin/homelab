@@ -3,6 +3,8 @@
 ## Overview
 Homepage is a modern, fully static, fast, and secure application dashboard. It serves as a centralized hub for managing various services and integrates with over 100 different services. With support for multiple languages and extensive customization options, Homepage provides a versatile solution for users seeking an intuitive dashboard experience.
 
+![homepage](homepage_dashboard.png)
+
 ## Documentation
 Explore the Homepage documentation for detailed information and usage instructions:
 
