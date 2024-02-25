@@ -1,28 +1,37 @@
-# Speedtest Tracker
+# Speedtest Tracker: Self-Hosted Internet Performance Tracker
 
-Speedtest Tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
+## Overview
+Speedtest Tracker is a self-hosted application designed for tracking internet performance. It conducts periodic speedtest checks against Ookla's Speedtest service, allowing users to monitor their internet connection's speed and reliability.
 
-## Docs
+## Documentation
+For detailed instructions and usage guidelines, refer to the Speedtest Tracker documentation:
 
-- [https://docs.speedtest-tracker.dev/](https://docs.speedtest-tracker.dev/)
-- [https://github.com/alexjustesen/speedtest-tracker](https://github.com/alexjustesen/speedtest-tracker)
+- [Speedtest Tracker Documentation](https://docs.speedtest-tracker.dev/)
+- [Speedtest Tracker GitHub Repository](https://github.com/alexjustesen/speedtest-tracker)
 
 ## Setup
 
-Simple as `make run`
+Initiate Speedtest Tracker with a simple command: `make run`.
 
 ## Settings
 
-### Speedtest Schedule
-
+Configure the speedtest schedule (using the web admin console) using cron syntax. For example, to run speedtest checks every 2 hours, use:
+```
 0 */2 * * *
+```
 
 ### Default Credentials
 
-username: admin@example.com  
-password: password
-
+- Username: admin@example.com
+- Password: password
+  
 ### Published Ports
+The following ports are accessible:
 
-http: 8080  
-https: 8443
+- HTTP: 8080
+- HTTPS: 8443
+ 
+## Note
+- Speedtest Tracker provides a convenient solution for tracking internet performance metrics over time.
+- Customize the speedtest schedule and adjust settings according to your preferences and requirements.
+- For any issues or inquiries, consult the documentation or community support resources.
