@@ -25,5 +25,5 @@ The following ports are published:
 
 ## Note
 - Regularly update Bitwarden and its dependencies to ensure security and stability.
-- Back up your configuration files and data regularly to prevent data loss. See [my backup script](../backup) for how I do it.
+- Back up your configuration files and data regularly to prevent data loss. Check my [backup](../backup) script to see how I do it.
 - For any issues or inquiries, consult the official documentation or reach out to Bitwarden support.
