@@ -14,6 +14,8 @@ For detailed instructions and post-installation setup, refer to the Pi-Hole docu
 - Start Pi-Hole with a simple command: `make run`.
 - Change your router's `WAN DNS settings` to point to the local IP address where Pi-Hole is running.
 
+![asus_wan_dns_setting.png](asus_wan_dns_setting.png)
+
 ## Settings
 
 ### Default Credentials
