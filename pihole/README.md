@@ -11,6 +11,8 @@ Network-wide Ad Blocking
 
 Simple as `make run`
 
+Change your router `WAN DNS Setting` to point to your local IP where pihole is running
+
 ## Settings
 
 ### Default Credentials
